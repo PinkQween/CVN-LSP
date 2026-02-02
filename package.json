@@ -2,7 +2,8 @@
   "name": "cvn",
   "displayName": "CVN Language Support (CVisual Novel Language Support)",
   "description": "Language support for CVN (C-style Visual Novel) script with syntax highlighting and autocompletion.",
-  "version": "0.0.1",
+  "version": "0.1.1",
+  "icon": "images/cvn-icon.png",
   "engines": {
     "vscode": "^1.107.0"
   },
