@@ -1,6 +1,6 @@
 {
   "name": "cvn",
-  "displayName": "CVN Language Support",
+  "displayName": "CVN Language Support (CVisual Novel Language Support)",
   "description": "Language support for CVN (C-style Visual Novel) script with syntax highlighting and autocompletion.",
   "version": "0.0.1",
   "engines": {
@@ -62,7 +62,8 @@
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src server/src --ext ts",
     "test": "vscode-test",
-    "package": "vsce package"
+    "package": "vsce package",
+    "publish": "vsce publish"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
